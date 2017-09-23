@@ -4,7 +4,7 @@
             <nav class="cover-navigation navigation--social">
                 <ul class="navigation">
 
-                    <!-- {% if site.social.weibo %} -->
+                    {% if site.social.weibo %}
                     <!-- Weibo -->
                     <li class="navigation__item_social">
                         <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
@@ -12,7 +12,7 @@
                             <span class="label">Weibo</span>
                         </a>
                     </li>
-                    <!-- {% endif %} {% if site.social.github %} -->
+                    {% endif %} {% if site.social.github %}
                     <!-- Github -->
                     <li class="navigation__item_social">
                         <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
@@ -20,7 +20,7 @@
                             <span class="label">Github</span>
                         </a>
                     </li>
-                    <!-- {% endif %} {% if site.social.twitter %} -->
+                    {% endif %} {% if site.social.twitter %}
                     <!-- Twitter -->
                     <li class="navigation__item_social">
                         <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
@@ -28,7 +28,7 @@
                             <span class="label">Twitter</span>
                         </a>
                     </li>
-                    <!-- {% endif %} {% if site.social.gplus %} -->
+                    {% endif %} {% if site.social.gplus %}
                     <!-- Google Plus -->
                     <li class="navigation__item_social">
                         <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
@@ -36,7 +36,7 @@
                             <span class="label">Google Plus</span>
                         </a>
                     </li>
-                    <!-- {% endif %} -->
+                    {% endif %}
 
                     <!-- RSS -->
                     <li class="navigation__item_social">
@@ -46,7 +46,7 @@
                         </a>
                     </li>
 
-                    <!-- {% if site.social.mail %} -->
+                    {% if site.social.mail %}
                     <!-- Email -->
                     <li class="navigation__item_social">
                         <a href="mailto:{{site.social.mail}}" title="Contact me">
@@ -54,7 +54,7 @@
                             <span class="label">Email</span>
                         </a>
                     </li>
-                    <!-- {% endif %} -->
+                    {% endif %}
 
                 </ul>
             </nav>
