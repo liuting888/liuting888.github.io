@@ -1,12 +1,19 @@
 # Basic
 title: 刘霆
-subtitle: 个人站
+subtitle: 愿繁花似锦，盼自在独行
 description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: 背影
 # 头像里面的描述
-avatarDesc: WEB / 前端
+avatarDesc: 前端切图仔
 url: "http://liuting888.github.io"
+
+# Social
+social:
+    weibo: new 
+    github: liuting888
+    # twitter: 
+    mail: 397289891@qq.com
 
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
 
