@@ -131,11 +131,11 @@ false,NaN,null,undefined,0,""
 
 4. 逻辑运算符
     * &&：表示并且，两个条件都要是true才成立
-    * ||：表示或者，两个条件都是false才不成立
+    * <||>：表示或者，两个条件都是false才不成立
     * !：表示非，把条件表达式的结果取反
     * 高级运用 - 短路运算
         * &&若是左边的表达式为true，返回右边的结果,否则返回左边的结果
-        * ||若是左边的表达式为false，返回右边的结果，融返回右边的结果
+        * <||>若是左边的表达式为false，返回右边的结果，融返回右边的结果
 
 5. 赋值运算符:= ；复合赋值运算符+=，-=，*=，/=，%= 
 
@@ -232,7 +232,7 @@ false,NaN,null,undefined,0,""
 
 2. 创建对象
     * new的方式(使用构造函数的方式)：也是一种批量创建对象的方式，本质也是函数，功能是专门用来创建对象
-    <img src="/images/posts/js/js基础/1.png" width = "300" height = "100" />   
+    <img src="/images/posts/js/js基础/1.png" width = "500" />   
     * 字面量：var obj = {}
 
 3. this关键字
@@ -273,9 +273,9 @@ false,NaN,null,undefined,0,""
 
 ### 内置对象
 1. 数学(Math)对象
-    <img src="/images/posts/js/js基础/2.png" width = "300" height = "100" />  
+    <img src="/images/posts/js/js基础/2.png" width = "300" />  
 2. 数组(Array)对象
-    <img src="/images/posts/js/js基础/3.png" width = "300" height = "100" />  
+    <img src="/images/posts/js/js基础/3.png" width = "300"/>  
 3. 日期(Date)对象:new Date();
 
 
